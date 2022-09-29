@@ -1,0 +1,74 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color: #013A4C;
+    
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 70px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#links span{
+    margin: 0 20px;
+    box-sizing: border-box;
+    
+}
+
+button{
+    padding: 0 15px;
+    height: 40px;
+    background-color: #fff;
+    border: solid 1px #013A4C;
+    border-radius: 5px;
+}
+
+.yellow_button{
+    border: none;
+    background-color: #FFD063;
+    margin-right: 10px;
+}
+
+.yellow_button:hover{
+    transition: all 0.5s;
+    background-color: #fff;
+    border: solid 0.5px #013A4C;
+    border-radius: 5px;
+}
+
+button:hover{
+    transition: all 0.7s;
+    border: none;
+    background-color: #FFD063;  
+}
+
+.grandma{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    background-size: 100%;
+    height: 700px;
+    background-image: url(../SmartContact/img/grandma.jpeg);
+    background-repeat: no-repeat;
+    
+}
+
+.grandma div{
+    margin: 70px 0 0 50px;
+}
+
+
+.big_text{
+
+    font-size: 60px;
+}
