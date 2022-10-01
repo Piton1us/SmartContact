@@ -57,7 +57,7 @@ button:hover{
     justify-content: flex-start;
     box-sizing: border-box;
     background-size: 100%;
-    height: 700px;
+    height: 600px;
     background-image: url(../SmartContact/img/grandma.jpeg);
     background-repeat: no-repeat;
     
@@ -71,4 +71,62 @@ button:hover{
 .big_text{
 
     font-size: 60px;
+}
+
+.sponsors{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #013A4C;
+}
+
+.sponsors img{
+    
+    margin: 0 20px;
+    width: 80px;
+    height: 35px;
+}
+
+#white{
+    font-weight: 100;
+    margin: 50px 0 40px 0;
+    font-size: 20px;
+    color: #fff;
+}
+
+.contact_img{
+    
+    padding: 90px 60px 0 60px;
+    display: flex;
+    justify-content:space-around;
+    background-color: #013A4C;
+}
+
+.contact_img img{
+    width: 20%;
+}
+
+.contact_img p{
+
+    margin: 30px 0;
+    color: #fff;
+}
+
+.big_text{
+    font-size: 40px;
+    
+}
+
+.collaborate{
+    padding-top: 80px;
+    background-color: #013A4C;
+    display: flex;
+    justify-content: center;
+}
+
+.collaborate img{
+    width: 70%;
 }
