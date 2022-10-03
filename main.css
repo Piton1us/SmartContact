@@ -132,10 +132,12 @@ button:hover{
 }
 
 .pressPlay img{
+    margin: 0;
     width: 100%;
 }
 
 .magic-hand{
+    
     height: 1480px;
     background-size: 100%;
     background-image: url(../SmartContact/img/hand.jpeg);
@@ -196,4 +198,100 @@ button:hover{
 
 .tennis p {
     color: #fff;
+}
+
+.commentaries{
+    padding: 40px 0 0 0;
+}
+
+#text-right{
+    font-size: 30px;
+    margin-left: 60px;
+}
+
+.comments{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.redText{
+    color: #89285B;
+}
+
+.comments>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 270px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.comments p{
+    font-size: 12px;
+}
+
+.comments img{
+    padding: 20px 20px 0 0;
+    box-sizing: border-box;
+    width: 55px;
+    height: 55px;
+}
+
+.commentator{
+    display: flex;
+}
+
+.colaborate{
+    color: #013A4C;
+    padding: 0 60px 0 60px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.colaborate>div{
+    margin-top: 100px;
+}
+
+.colaborate img{
+    width: 30%;
+    margin-bottom: 100px;
+}
+
+.colaborate p{
+    margin: 30px 0;
+    color: #013A4C;
+}
+
+.other-offers{
+   display:flex;
+   justify-content: center;
+   align-items: center; 
+   text-align: center;
+}
+
+.other-offers>div{
+    
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+} 
+
+.mini-img{
+    width: 70%;
+}
+
+#offers{
+    display: flex;
+    justify-content: center;
+}
+
+#offers img{
+    margin: 10px 35px;
+    width: 20%;
 }
