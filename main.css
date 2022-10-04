@@ -295,3 +295,58 @@ button:hover{
     margin: 10px 35px;
     width: 20%;
 }
+
+.h2_left{
+    margin-top: 90px;
+    margin-left: 95px;
+    margin-bottom: 30px;
+}
+
+.oneflow{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.oneflow div{
+    text-align: center;
+    margin: 0 20px;
+}
+
+.oneflow img{
+    width: 560px;
+    height: 315px;
+}
+
+footer{
+    margin-top: 30px;
+    padding-top: 20px;
+    display: flex;
+    background-color: #013A4C;
+    justify-content: space-around;
+}
+
+footer p,span{
+    color: #fff;
+    font-size: 15px;
+}
+
+footer h2{
+    color: #fff;
+    font-size: 30px;
+}
+
+.footer_buttons{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer_buttons div{
+    margin: 0 30px;
+}
+
+.footer_buttons p{
+    font-size: 12px;
+}
